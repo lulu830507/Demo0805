@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		C17B90E826BBFDC600C99DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */; };
 		C17B90EA26BBFDC600C99DD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */; };
-		C17B90EC26BBFDC600C99DD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90EB26BBFDC600C99DD6 /* ViewController.swift */; };
 		C17B90EF26BBFDC600C99DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90ED26BBFDC600C99DD6 /* Main.storyboard */; };
 		C17B90F126BBFDC800C99DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17B90F026BBFDC800C99DD6 /* Assets.xcassets */; };
 		C17B90F426BBFDC800C99DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */; };
 		C17B90FF26BBFDC800C99DD6 /* Demo0805Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90FE26BBFDC800C99DD6 /* Demo0805Tests.swift */; };
 		C17B910A26BBFDC800C99DD6 /* Demo0805UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B910926BBFDC800C99DD6 /* Demo0805UITests.swift */; };
+		C17B911826BD27FD00C99DD6 /* QuestionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B911726BD27FD00C99DD6 /* QuestionArray.swift */; };
+		C17B911A26BD2D7800C99DD6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B911926BD2D7800C99DD6 /* StartViewController.swift */; };
+		C17B911C26BD579900C99DD6 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B911B26BD579900C99DD6 /* QuestionsViewController.swift */; };
+		C17B912026BFBD7200C99DD6 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B911F26BFBD7200C99DD6 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		C17B90E426BBFDC600C99DD6 /* Demo0805.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo0805.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C17B90EB26BBFDC600C99DD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C17B90EE26BBFDC600C99DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C17B90F026BBFDC800C99DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C17B90F326BBFDC800C99DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		C17B910526BBFDC800C99DD6 /* Demo0805UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo0805UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17B910926BBFDC800C99DD6 /* Demo0805UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo0805UITests.swift; sourceTree = "<group>"; };
 		C17B910B26BBFDC800C99DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17B911726BD27FD00C99DD6 /* QuestionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionArray.swift; sourceTree = "<group>"; };
+		C17B911926BD2D7800C99DD6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C17B911B26BD579900C99DD6 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		C17B911F26BFBD7200C99DD6 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */,
 				C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */,
-				C17B90EB26BBFDC600C99DD6 /* ViewController.swift */,
 				C17B90ED26BBFDC600C99DD6 /* Main.storyboard */,
+				C17B911F26BFBD7200C99DD6 /* ScoreViewController.swift */,
+				C17B911B26BD579900C99DD6 /* QuestionsViewController.swift */,
+				C17B911726BD27FD00C99DD6 /* QuestionArray.swift */,
+				C17B911926BD2D7800C99DD6 /* StartViewController.swift */,
 				C17B90F026BBFDC800C99DD6 /* Assets.xcassets */,
 				C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */,
 				C17B90F526BBFDC800C99DD6 /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17B90EC26BBFDC600C99DD6 /* ViewController.swift in Sources */,
+				C17B911826BD27FD00C99DD6 /* QuestionArray.swift in Sources */,
+				C17B911C26BD579900C99DD6 /* QuestionsViewController.swift in Sources */,
+				C17B911A26BD2D7800C99DD6 /* StartViewController.swift in Sources */,
 				C17B90E826BBFDC600C99DD6 /* AppDelegate.swift in Sources */,
 				C17B90EA26BBFDC600C99DD6 /* SceneDelegate.swift in Sources */,
+				C17B912026BFBD7200C99DD6 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
