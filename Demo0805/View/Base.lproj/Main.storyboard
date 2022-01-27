@@ -184,9 +184,6 @@
                                         <state key="normal">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="selectA:" destination="J5l-Sl-rMp" eventType="touchUpInside" id="W2m-Oa-6Gt"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj7-dx-wH7">
                                         <rect key="frame" x="0.0" y="65" width="290" height="55"/>
@@ -195,9 +192,6 @@
                                         <state key="normal">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
-                                        <connections>
-                                            <action selector="selectB:" destination="J5l-Sl-rMp" eventType="touchUpInside" id="Vvv-gb-2D6"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsM-kX-UT0">
                                         <rect key="frame" x="0.0" y="130" width="290" height="55"/>
@@ -206,9 +200,6 @@
                                         <state key="normal">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
-                                        <connections>
-                                            <action selector="selectC:" destination="J5l-Sl-rMp" eventType="touchUpInside" id="4kU-LE-aqp"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaP-7m-OvY">
                                         <rect key="frame" x="0.0" y="195" width="290" height="55"/>
@@ -217,29 +208,12 @@
                                         <state key="normal">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
-                                        <connections>
-                                            <action selector="selectD:" destination="J5l-Sl-rMp" eventType="touchUpInside" id="9G7-Eg-sDm"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="VOR-mS-DlC"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cK2-Z3-F46">
-                                <rect key="frame" x="130" y="676.66666666666663" width="130" height="69"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="HsL-Mc-3Of"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" red="0.96425300839999994" green="0.78675764800000003" blue="0.27825009820000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="nextQuestion:" destination="J5l-Sl-rMp" eventType="touchUpInside" id="mps-xP-ndR"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F4y-gc-kud"/>
                         <color key="backgroundColor" red="0.32941176470588235" green="0.72422510389999994" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -247,37 +221,31 @@
                             <constraint firstItem="87h-D1-RRs" firstAttribute="top" secondItem="7jo-m9-nl3" secondAttribute="bottom" constant="10" id="2Mc-fw-7W5"/>
                             <constraint firstItem="Wdv-MJ-94O" firstAttribute="height" secondItem="k1G-Uj-yta" secondAttribute="height" multiplier="0.316456" priority="750" id="6iv-bh-8ih"/>
                             <constraint firstItem="7jo-m9-nl3" firstAttribute="height" secondItem="k1G-Uj-yta" secondAttribute="height" multiplier="0.164557" id="8ex-VO-Yeh"/>
-                            <constraint firstItem="cK2-Z3-F46" firstAttribute="leading" relation="lessThanOrEqual" secondItem="F4y-gc-kud" secondAttribute="leading" constant="130" id="AKi-OZ-55l"/>
                             <constraint firstItem="Ofb-iO-l8v" firstAttribute="height" secondItem="k1G-Uj-yta" secondAttribute="height" multiplier="0.113924" id="AvU-7Z-StU"/>
                             <constraint firstItem="Ofb-iO-l8v" firstAttribute="centerY" secondItem="k1G-Uj-yta" secondAttribute="centerY" multiplier="0.2" id="CdD-gf-bz2"/>
                             <constraint firstItem="F4y-gc-kud" firstAttribute="trailing" secondItem="7jo-m9-nl3" secondAttribute="trailing" constant="10" id="Eub-gE-yiL"/>
-                            <constraint firstItem="F4y-gc-kud" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="cK2-Z3-F46" secondAttribute="trailing" constant="130" id="FWl-h4-f6f"/>
-                            <constraint firstItem="cK2-Z3-F46" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Wdv-MJ-94O" secondAttribute="bottom" constant="20" id="IS4-8e-bjJ"/>
                             <constraint firstItem="7jo-m9-nl3" firstAttribute="top" secondItem="Ofb-iO-l8v" secondAttribute="bottom" constant="5" id="MwB-8v-x7u"/>
                             <constraint firstItem="Ofb-iO-l8v" firstAttribute="leading" secondItem="F4y-gc-kud" secondAttribute="leading" constant="50" id="W9C-Q8-FjX"/>
                             <constraint firstItem="F4y-gc-kud" firstAttribute="trailing" secondItem="Ofb-iO-l8v" secondAttribute="trailing" constant="50" id="b5r-6d-aU0"/>
                             <constraint firstItem="87h-D1-RRs" firstAttribute="leading" secondItem="F4y-gc-kud" secondAttribute="leading" constant="20" id="eBn-Wl-jh6"/>
                             <constraint firstItem="Wdv-MJ-94O" firstAttribute="leading" secondItem="F4y-gc-kud" secondAttribute="leading" constant="50" id="gLX-xg-418"/>
                             <constraint firstItem="Wdv-MJ-94O" firstAttribute="top" secondItem="87h-D1-RRs" secondAttribute="bottom" constant="20" id="hfV-Ny-Y8D"/>
-                            <constraint firstItem="cK2-Z3-F46" firstAttribute="centerY" secondItem="k1G-Uj-yta" secondAttribute="centerY" multiplier="1.8:1" priority="750" id="itz-xY-gHB"/>
                             <constraint firstItem="7jo-m9-nl3" firstAttribute="leading" secondItem="F4y-gc-kud" secondAttribute="leading" constant="10" id="jWh-Es-uIv"/>
                             <constraint firstItem="F4y-gc-kud" firstAttribute="trailing" secondItem="Wdv-MJ-94O" secondAttribute="trailing" constant="50" id="mUq-0g-6hS"/>
-                            <constraint firstItem="cK2-Z3-F46" firstAttribute="height" secondItem="k1G-Uj-yta" secondAttribute="height" multiplier="0.087" priority="750" id="o9n-XI-qK0"/>
                             <constraint firstItem="F4y-gc-kud" firstAttribute="trailing" secondItem="87h-D1-RRs" secondAttribute="trailing" constant="20" id="oAM-cb-dy2"/>
                             <constraint firstItem="87h-D1-RRs" firstAttribute="height" secondItem="k1G-Uj-yta" secondAttribute="height" multiplier="0.0759494" id="wBC-8p-N3I"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CfI-sb-W9c"/>
                     <connections>
-                        <outlet property="buttonA" destination="NPi-Mq-4cj" id="17k-Er-0yP"/>
-                        <outlet property="buttonB" destination="Oj7-dx-wH7" id="sQ3-xP-jPl"/>
-                        <outlet property="buttonC" destination="jsM-kX-UT0" id="FpI-ji-XD3"/>
-                        <outlet property="buttonD" destination="ZaP-7m-OvY" id="cJZ-n9-aU0"/>
                         <outlet property="elapsedTimeLabel" destination="dmR-t2-XBN" id="pn2-2L-XcF"/>
-                        <outlet property="nextButton" destination="cK2-Z3-F46" id="tdn-Uh-AYy"/>
                         <outlet property="numberOfQuestionLabel" destination="6vr-0c-b9C" id="uYj-3S-85A"/>
                         <outlet property="questionLabel" destination="dJe-U8-Nc4" id="8FN-EO-uaq"/>
                         <outlet property="scoreLabel" destination="lZk-F1-gwt" id="tZV-2A-4bi"/>
+                        <outletCollection property="choiceBtnOutlet" destination="NPi-Mq-4cj" collectionClass="NSMutableArray" id="5rh-wd-Emc"/>
+                        <outletCollection property="choiceBtnOutlet" destination="Oj7-dx-wH7" collectionClass="NSMutableArray" id="Xvp-Si-PBQ"/>
+                        <outletCollection property="choiceBtnOutlet" destination="jsM-kX-UT0" collectionClass="NSMutableArray" id="HyS-tX-duu"/>
+                        <outletCollection property="choiceBtnOutlet" destination="ZaP-7m-OvY" collectionClass="NSMutableArray" id="CAP-7H-FqS"/>
                         <segue destination="goy-aF-jl6" kind="show" identifier="score" destinationCreationSelector="passFinalScore:" id="1ZF-xr-az3"/>
                     </connections>
                 </viewController>

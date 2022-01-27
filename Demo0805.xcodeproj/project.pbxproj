@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33D46B8827A2869B0061B9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90ED26BBFDC600C99DD6 /* Main.storyboard */; };
 		C17B90E826BBFDC600C99DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */; };
 		C17B90EA26BBFDC600C99DD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */; };
-		C17B90EF26BBFDC600C99DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90ED26BBFDC600C99DD6 /* Main.storyboard */; };
 		C17B90F126BBFDC800C99DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17B90F026BBFDC800C99DD6 /* Assets.xcassets */; };
 		C17B90F426BBFDC800C99DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */; };
 		C17B90FF26BBFDC800C99DD6 /* Demo0805Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90FE26BBFDC800C99DD6 /* Demo0805Tests.swift */; };
@@ -95,7 +95,6 @@
 		33D46B8427A2642B0061B9D4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */,
 				C17B90ED26BBFDC600C99DD6 /* Main.storyboard */,
 			);
 			path = View;
@@ -104,6 +103,7 @@
 		33D46B8527A264620061B9D4 /* Support File */ = {
 			isa = PBXGroup;
 			children = (
+				C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */,
 				C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */,
 				C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */,
 				C17B90F026BBFDC800C99DD6 /* Assets.xcassets */,
@@ -272,9 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D46B8827A2869B0061B9D4 /* Main.storyboard in Resources */,
 				C17B90F426BBFDC800C99DD6 /* LaunchScreen.storyboard in Resources */,
 				C17B90F126BBFDC800C99DD6 /* Assets.xcassets in Resources */,
-				C17B90EF26BBFDC600C99DD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
