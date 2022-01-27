@@ -170,7 +170,6 @@ class QuestionsViewController: UIViewController {
         
         for i in 0...3 {
             choiceBtnOutlet[i].setTitle(answerArray[i], for: .normal)
-            
         }
         
     }
