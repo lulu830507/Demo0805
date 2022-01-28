@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33D46B8827A2869B0061B9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90ED26BBFDC600C99DD6 /* Main.storyboard */; };
 		C17B90E826BBFDC600C99DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */; };
 		C17B90EA26BBFDC600C99DD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */; };
-		C17B90EF26BBFDC600C99DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90ED26BBFDC600C99DD6 /* Main.storyboard */; };
 		C17B90F126BBFDC800C99DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17B90F026BBFDC800C99DD6 /* Assets.xcassets */; };
 		C17B90F426BBFDC800C99DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */; };
 		C17B90FF26BBFDC800C99DD6 /* Demo0805Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B90FE26BBFDC800C99DD6 /* Demo0805Tests.swift */; };
@@ -82,10 +82,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33D46B8327A2641C0061B9D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C17B911926BD2D7800C99DD6 /* StartViewController.swift */,
+				C17B911B26BD579900C99DD6 /* QuestionsViewController.swift */,
+				C17B911F26BFBD7200C99DD6 /* ScoreViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33D46B8427A2642B0061B9D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C17B90ED26BBFDC600C99DD6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33D46B8527A264620061B9D4 /* Support File */ = {
+			isa = PBXGroup;
+			children = (
+				C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */,
+				C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */,
+				C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */,
+				C17B90F026BBFDC800C99DD6 /* Assets.xcassets */,
+				C17B90F526BBFDC800C99DD6 /* Info.plist */,
+			);
+			path = "Support File";
+			sourceTree = "<group>";
+		};
+		33D46B8627A2648A0061B9D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C17B911726BD27FD00C99DD6 /* QuestionArray.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C17B90DB26BBFDC600C99DD6 = {
 			isa = PBXGroup;
 			children = (
 				C17B90E626BBFDC600C99DD6 /* Demo0805 */,
+				33D46B8527A264620061B9D4 /* Support File */,
 				C17B90FD26BBFDC800C99DD6 /* Demo0805Tests */,
 				C17B910826BBFDC800C99DD6 /* Demo0805UITests */,
 				C17B90E526BBFDC600C99DD6 /* Products */,
@@ -105,16 +144,9 @@
 		C17B90E626BBFDC600C99DD6 /* Demo0805 */ = {
 			isa = PBXGroup;
 			children = (
-				C17B90E726BBFDC600C99DD6 /* AppDelegate.swift */,
-				C17B90E926BBFDC600C99DD6 /* SceneDelegate.swift */,
-				C17B90ED26BBFDC600C99DD6 /* Main.storyboard */,
-				C17B911F26BFBD7200C99DD6 /* ScoreViewController.swift */,
-				C17B911B26BD579900C99DD6 /* QuestionsViewController.swift */,
-				C17B911726BD27FD00C99DD6 /* QuestionArray.swift */,
-				C17B911926BD2D7800C99DD6 /* StartViewController.swift */,
-				C17B90F026BBFDC800C99DD6 /* Assets.xcassets */,
-				C17B90F226BBFDC800C99DD6 /* LaunchScreen.storyboard */,
-				C17B90F526BBFDC800C99DD6 /* Info.plist */,
+				33D46B8627A2648A0061B9D4 /* Model */,
+				33D46B8427A2642B0061B9D4 /* View */,
+				33D46B8327A2641C0061B9D4 /* Controller */,
 			);
 			path = Demo0805;
 			sourceTree = "<group>";
@@ -240,9 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D46B8827A2869B0061B9D4 /* Main.storyboard in Resources */,
 				C17B90F426BBFDC800C99DD6 /* LaunchScreen.storyboard in Resources */,
 				C17B90F126BBFDC800C99DD6 /* Assets.xcassets in Resources */,
-				C17B90EF26BBFDC600C99DD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

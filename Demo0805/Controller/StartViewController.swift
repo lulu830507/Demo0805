@@ -48,6 +48,10 @@ class StartViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         difficultyText.inputAccessoryView = toolbar
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        didTapDone()
+    }
+    
     @objc private func didTapDone() {
         nameTextField.resignFirstResponder()
         categoryText.resignFirstResponder()
